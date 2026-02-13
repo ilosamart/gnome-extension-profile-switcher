@@ -1,0 +1,7 @@
+{
+  "uuid": "profile-switcher@tramasoli.com",
+  "name": "Profile Switcher",
+  "description": "Switches favorite apps and wallpaper settings between Work and Personal profiles.",
+  "shell-version": ["45", "46", "47"],
+  "version": 1
+}

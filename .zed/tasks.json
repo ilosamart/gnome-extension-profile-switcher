@@ -1,0 +1,14 @@
+[
+  {
+    "label": "Instalar Extensão",
+    "command": "mkdir -p ~/.local/share/gnome-shell/extensions/profile-switcher@tramasoli.com && cp ./profile-switcher@tramasoli.com/* ~/.local/share/gnome-shell/extensions/profile-switcher@tramasoli.com/ && gnome-extensions enable profile-switcher@tramasoli.com",
+  },
+  {
+    "label": "Reiniciar Extensão",
+    "command": "gnome-extensions disable profile-switcher@tramasoli.com; gnome-extensions enable profile-switcher@tramasoli.com",
+  },
+  {
+    "label": "Abrir nested Gnome",
+    "command": "GNOME_SHELL_EXTENSION_UUID='profile-switcher@tramasoli.com' dbus-run-session env GNOME_SHELL_EXTENSION_PATH=${ZED_WORKTREE_ROOT} gnome-shell --nested --wayland",
+  },
+]
