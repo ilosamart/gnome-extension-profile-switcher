@@ -39,4 +39,4 @@ Esta extensão do Gnome, chamada **Profile Switcher**, permite que você alterne
 ### Arquivos de Configuração
 As configurações e papéis de parede ficam salvos em:
 *   `~/.config/gnome-profiles/config.json`
-*   `~/.config/gnome-profiles/saved_wallpapers/
+*   `~/.config/gnome-profiles/saved_wallpapers/`
